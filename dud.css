@@ -1,0 +1,258 @@
+   @import url('https://fonts.googleapis.com/css2?family=Playwrite+MX:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Playwrite+MX:wght@100..400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('imagens/fundo3.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, sans-serif;
+}
+
+
+.paraduda1 {
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 10px;
+}
+
+.paraduda2 {
+    font-family: "Playwrite MX", cursive;
+    color: white;
+    text-align: center;
+}
+
+.paraduda2 h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+
+.musica1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px;
+}
+
+.musica2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    max-width: 340px;
+    background-color: rgba(0, 0, 0, 0.85);
+    border-radius: 12px;
+    padding: 20px 15px 15px;
+    gap: 12px;
+}
+
+.musica3 {
+    background-image: url(imagens/djavan.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+
+.musica4 {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    width: 100%;
+}
+
+.musica4 audio {
+    width: 100%;
+    max-width: 260px;
+    margin-top: 6px;
+}
+
+
+.cartao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    width: 90%;
+    max-width: 380px;
+    margin: 25px auto;
+    padding: 25px 20px;
+    border: 3px solid gray;
+    border-radius: 8px;
+    position: relative;
+}
+
+.cartao2 {
+    font-family: "Playwrite MX", cursive;
+    color: #22272c;
+    font-size: 15px;
+    line-height: 1.7;
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+.cartao3 {
+    background-image: url(imagens/ChatGPT\ Image\ 5\ de\ out.\ de\ 2026\,\ 13_20_48.png);
+    position: absolute;
+    height: 42px;
+    width: 42px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    top: 8px;
+    right: 12px;
+}
+
+.cartao4 {
+    background-image: url(imagens/ChatGPT\ Image\ 5\ de\ out.\ de\ 2026\,\ 13_32_56.png);
+    position: absolute;
+    height: 36px;
+    width: 36px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 8px;
+    left: 12px;
+}
+
+
+.gatos1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+    padding: 15px 0 25px;
+}
+
+.gatos2, .gatos3 {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gatos2 {
+    background-image: url(imagens/gatos.jpg);
+}
+
+.gatos3 {
+    background-image: url(imagens/d7417ac1b954782dd215cb23fc85253f.jpg);
+}
+
+
+.carta1, .carta2, .carta3 {
+    background-color: white;
+    width: 90%;
+    max-width: 420px;
+    margin: 20px auto;
+    padding: 22px 18px;
+    border: 3px solid black;
+    border-radius: 6px;
+    position: relative;
+    font-family: "Playwrite MX", cursive;
+    color: #22272c;
+    font-size: 13.5px;
+    line-height: 1.75;
+    letter-spacing: 0.3px;
+}
+
+
+.coracao-badge {
+    position: absolute;
+    font-size: 32px;
+    top: -18px;
+    right: 15px;
+}
+
+.coracao-badge2 {
+    position: absolute;
+    font-size: 32px;
+    bottom: -18px;
+    right: 20px;
+}
+
+.coracao-badge3 {
+    position: absolute;
+    font-size: 32px;
+    top: -18px;
+    left: 15px;
+}
+
+
+.dedavi {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 30px 10px 50px;
+}
+
+.dedavi2 {
+    font-family: "Playwrite MX", cursive;
+    color: white;
+    text-align: center;
+}
+
+.dedavi2 h1 {
+    font-size: 1.7rem;
+    margin: 0;
+}
+
+
+@media (max-width: 400px) {
+    .musica3 {
+        width: 140px;
+        height: 140px;
+    }
+
+    .cartao2 {
+        font-size: 14px;
+    }
+
+    .carta1, .carta2, .carta3 {
+        font-size: 13px;
+        padding: 18px 14px;
+    }
+
+    .gatos2, .gatos3 {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+
+@media (min-width: 600px) {
+    .musica2 {
+        max-width: 380px;
+    }
+
+    .musica3 {
+        width: 180px;
+        height: 180px;
+    }
+
+    .cartao {
+        max-width: 420px;
+    }
+
+    .carta1, .carta2, .carta3 {
+        max-width: 480px;
+        font-size: 14px;
+    }
+}
